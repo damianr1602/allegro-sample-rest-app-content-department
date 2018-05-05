@@ -18,8 +18,7 @@ public class Film {
     private String title;
     private String year;
     private String director;
-    private String writer;
-    private String genre;
+    private String[] genre;
 
 
 
@@ -55,19 +54,11 @@ public class Film {
         this.director = director;
     }
 
-    public String getWriter() {
-        return writer;
-    }
-
-    public void setWriter(String writer) {
-        this.writer = writer;
-    }
-
-    public String getGenre() {
+    public String[] getGenre() {
         return genre;
     }
 
-    public void setGenre(String genre) {
+    public void setGenre(String[] genre) {
         this.genre = genre;
     }
 }

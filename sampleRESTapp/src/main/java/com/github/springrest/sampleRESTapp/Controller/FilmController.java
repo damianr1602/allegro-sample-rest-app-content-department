@@ -17,8 +17,8 @@ public class FilmController {
         return filmService.getAllFilms();
     }
 
-    @RequestMapping(value = "films/{id}", method = RequestMethod.GET)
-    public Film getFilm(@PathVariable String id) {
+    @RequestMapping(value = "films/film{id}", method = RequestMethod.GET)
+    public Film getFilm(String id) {
         return filmService.getFilmInfo(id);
     }
 
