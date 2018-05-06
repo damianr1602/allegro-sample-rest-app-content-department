@@ -17,6 +17,6 @@ Body:
 /films, metoda GET
 http://localhost:8080/films
 
-/films/film?id=1
+/films/film?id=1, metoda GET
 http://localhost:8080/films/film?id=1
 
